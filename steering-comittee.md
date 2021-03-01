@@ -44,4 +44,4 @@ If an agenda item cannot reach a consensus, a TAB member can call for either a c
 
 ## Attribution
 
-This a derivative work of the [Node.js Project Governance](https://raw.githubusercontent.com/nodejs/nodejs.org/0dd684cf21d278ba8aa178db0a20ebc6d587c58e/locale/en/about/governance.md). This work is licensed under the [MIT](https://opensource.org/licenses/MIT) license with copyright held by Node.js Website WG contributors.
+This a derivative work of the [ODK Tab Governance](https://github.com/getodk/governance/blob/master/TAB-GOVERNANCE.md), which is itself derivative of [Node.js Project Governance](https://raw.githubusercontent.com/nodejs/nodejs.org/0dd684cf21d278ba8aa178db0a20ebc6d587c58e/locale/en/about/governance.md). This work is licensed under the [MIT](https://opensource.org/licenses/MIT) license with copyright held by Node.js Website WG contributors.
