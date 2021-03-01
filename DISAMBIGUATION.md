@@ -8,6 +8,8 @@ hosted use of that software, and consults on data integration projects. The
 major offerings, both proprietary and open-source, can be used independently or
 in concert with one another.
 
+![image](https://user-images.githubusercontent.com/8732845/109513444-05299f00-7a9d-11eb-9362-c8f02b09a69f.png)
+
 ## Disambiguation around OpenFn’s Products
 
 1. “platform” is the proprietary, enterprise integration-platform-as-a-service
