@@ -82,7 +82,7 @@ users and implementers. It reviews and gives feedback on major roadmap
 decisions, new designs, specfications, features, and protocol changes.
 
 The OSSC's membership and decision making process are defined in the
-[OSSC's internal governance policy](steering-committee.md).
+[OSSC's internal governance policy](OSSC.md).
 
 ## Code
 
