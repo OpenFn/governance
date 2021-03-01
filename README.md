@@ -102,7 +102,7 @@ resources.
 
 OFG awards Committer status to individuals making significant and valuable
 contributions to the project. Current Committers and the OSSC may also suggest
-individuals deserving of Committer access, but Get ODK Inc. has final say.
+individuals deserving of Committer access, but OFG has final say.
 
 _Note: If you make a significant contribution and are not considered for
 commit/write access on the appropriate resource, file an issue, post on the
@@ -124,7 +124,7 @@ expertise who is able to take full responsibility for the change.
 In the case of changes proposed by an existing Committer, an additional
 Committer is required for review.
 
-Committers should elevate significant or controversial modifications to the TAB
+Committers should elevate significant or controversial modifications to the OSSC
 for discussion. The OSSC should seek to achieve consensus on the question and
 offer its recommendation.
 
