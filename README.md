@@ -1,53 +1,96 @@
 # Governance Overview
 
-The ODK project is governed by Get ODK Inc. under the supervision of its
-Technical Advisory Board. It is separate from the ODK-X project as per the terms
-of the [Separation MOU](SEPARATION-MOU.md).
+The OpenFn open-source integration toolkit (the "integration toolkit") is
+governed by Open Function Group (OFG), LLC under the supervision of its Open
+Source Steering Committee (OSSC).
 
-Get ODK Inc. and its Technical Advisory Board are guided first and foremost by
-the project's [Code of Conduct](CODE-OF-CONDUCT.md) and
+Open Function Group and the OSSC are guided first and foremost by the project's
+[Code of Conduct](CODE-OF-CONDUCT.md) and
 [Mission and Values](MISSION-AND-VALUES.md). The remainder of this document lays
 out how specific decisions are made.
 
-## Get ODK Inc.
+## Open Function Group (OFG)
 
-ODK has become a large and vibrant open source project, depended on by millions
-of users for critical data gathering needs. As such, the project requires
-substantial work to maintain. This work is best performed performed in a steady,
-reliable fashion by a concrete, well-resourced entity. In recognition of these
-facts, Get ODK Inc., a corporation in the U.S. State of California, was formed
-to serve as the primary, day-to-day manager and steward of the project.
+[Open Function Group](https://www.openfn.org) is a New York-based LLC which has
+been building free and open source software (FOSS) for data integration projects
+in the health, humanitarian, and international development sectors since
+in 2014. Their software and services are now in use by governments, NGOs, and
+impact-first businesses in over 40 countries.
 
-Get ODK Inc. strives to preserve ODK as a healthy and bona fide open source
-project and sustains its operations through ODK-related business activites (or
-otherwise).
+OFG's first integration platform was entirely FOSS, but they soon shifted to an
+["open-core"](https://en.wikipedia.org/wiki/Open-core_model) (think GitLab) in
+order to sustain their impact-focused integration work. Their main hosted
+offering, the OpenFn "platform", is _proprietary_ but makes extensive use of the
+open-source integration toolkit; in fact, the "platform" may be thought of as an
+enterprise/hosted layer running on-top of the basic, open-source building blocks
+provided by the integration toolkit.
 
-## Technical Advisory Board
+### The OpenFn integration-platform-as-a-service
 
-The Technical Advisory Board (TAB) represents the ODK community of end users and
-implementers. It reviews and gives feedback on major roadmap decisions, new
-designs, specfications, features, and protocol changes.
+Sometimes just referred to as "the platform", "the OpenFn platform" or "the
+iPaaS", OpenFn's integration-plaform-as-a-service is a proprietary, enterprise
+offering that provides a secure, stable, and scalable implementation pathway for
+organizations to design, build, deploy, and manage enterprise-grade integration,
+interoperability, and automation projects. It can be deployed locally or
+accessed via the cloud.
 
-The TAB was formerly the Technical Steering Committee (TSC). When Get ODK Inc.
-was created, the TAB agreed to become an advisory body to the new entity and
-change its name. Get ODK Inc. commits to maintaining the TAB indefinitely as
-part of its commitment to the open source community.
+### OFG's commitment to use and sustain the integration toolkit
 
-The TAB's membership and decision making process are defined in the
-[TAB's internal governance policy](TAB-GOVERNANCE.md).
+OFG strives to preserve the integration toolkit as a healthy and bona fide open
+source project and sustains its operations through business activities related
+to the toolkit and their other proprietary and/or service offerings.
+
+We have designed the tools in the toolkit to be useful as standalone pieces of
+software _and_ as modules, used by other applications. Because a substantial
+portion of OFG's revenue comes from contracts related to the platform, and
+because the platform relies on OpenFn/core, OpenFn/engine, and the OpenFn
+adaptors, we hope to ensure that OFG will always be incentivized to continue
+their investment in the integration toolkit.
+
+In other words, we're attempting to ensure that as OFG succeeds, they will
+continue enhancing the open source integration toolkit regardless of whether or
+not additional funders and/or stakeholders contribute to the project.
+
+## The Integration Toolkit
+
+Separate from "the platform", the integration toolkit is the suite of
+applications and modules provided by OFG and the community which enable data
+integration, interoperability, and automation solutions via OpenFn-compliant
+jobs, triggers, and credentials. The key components of the toolkit are:
+
+1. OpenFn/core
+2. OpenFn/engine
+3. OpenFn/microservice
+4. OpenFn/devtools
+5. the OpenFn adaptors
+
+Unless otherwise noted, all open-source repositories found at
+https://www.github.com/openfn are part of the integration toolkit.
+
+Unless otherwise noted, all of these applications and modules are LGPL licensed
+to ensure that (a) derivative works of those applications will continue to be
+open-source and (b) they may be used as sub-modules of proprietary applications,
+such as "the platform" or any other software which the community may want to
+build on top of this toolkit.
+
+## Open Source Steering Committee (OSSC)
+
+The Open Source Steering Committee (OSSC) represents the OpenFn community of end
+users and implementers. It reviews and gives feedback on major roadmap
+decisions, new designs, specfications, features, and protocol changes.
+
+The OSSC's membership and decision making process are defined in the
+[OSSC's internal governance policy](steering-committee.md).
 
 ## Code
 
-As ODK is an open source project, anybody may file issues on or propose code
-changes to any of the various ODK repositories. Proposed code changes must be
-approved by a project Committer.
+As the integration toolkit is an open source project, anybody may file issues on
+or propose code changes to any of the various integration toolkit repositories.
+Proposed code changes must be approved by a project Committer.
 
-ODK code is permissively licensed with code copyright remaining with the
-original author. In this sense, no one entity "owns" the project's intellectual
-assets. The release process for all tools is controlled by Get ODK Inc. All
-ODK-related online properties such as software-as-a-service accounts, hosting
-accounts, social media accounts, and so forth are in the name of Get ODK Inc.,
-and all expenses for same are borne by Get ODK Inc.
+Integration toolkit code is permissively licensed with code copyright remaining
+with the original author. In this sense, no one entity "owns" the project's
+intellectual assets.
 
 ### Committers
 
@@ -57,25 +100,21 @@ community. Commit/write access allows contributors to more easily carry on with
 their project-related activities by giving them direct access to the project's
 resources.
 
-Get ODK Inc. awards Committer status to individuals making significant and
-valuable contributions to the project. Current Committers and the TAB may also
-suggest individuals deserving of Committer access, but Get ODK Inc. has final
-say.
+OFG awards Committer status to individuals making significant and valuable
+contributions to the project. Current Committers and the OSSC may also suggest
+individuals deserving of Committer access, but Get ODK Inc. has final say.
 
 _Note: If you make a significant contribution and are not considered for
 commit/write access on the appropriate resource, file an issue, post on the
-forum, or contact a TAB member directly and it will be brought up at the next
-TAB meeting._
+forum, or contact an OSSC member directly and it will be brought up at the next
+OSSC meeting._
 
 If a Committer becomes inactive, having not participated substantially in the
 project for six months or more, their Committer status will be revoked. They may
 regain status again by resuming substantial participation.
 
-Notwithstanding any of the above, Get ODK Inc. may revoke the Committer status
-of any Committer at its sole discretion.
-
-The current list of Committers is at
-[https://github.com/orgs/getodk/people](https://github.com/orgs/getodk/people).
+Notwithstanding any of the above, OFG may revoke the Committer status of any
+Committer at its sole discretion.
 
 ### Change approval
 
@@ -86,18 +125,18 @@ In the case of changes proposed by an existing Committer, an additional
 Committer is required for review.
 
 Committers should elevate significant or controversial modifications to the TAB
-for discussion. The TAB should seek to achieve consensus on the question and
+for discussion. The OSSC should seek to achieve consensus on the question and
 offer its recommendation.
 
-As Get ODK Inc. has commit access and controls the release process for all
-tools, it effectively has final say on any code changes. The above procedures
-are designed to foster a collaborative, community-oriented process, and should
-be followed in most cases.
+As OFG has commit access and controls the release process for all tools, it
+effectively has final say on any code changes. The above procedures are designed
+to foster a collaborative, community-oriented process, and should be followed in
+most cases.
 
 ## Roadmap
 
-A "project roadmap" is the plan of upcoming changes to a project's code. In ODK
-projects, the Get ODK Inc. and the TAB collaborate to set the roadmap.
+A "project roadmap" is the plan of upcoming changes to a project's code. In
+integration toolkit projects, OFG and the OSSC collaborate to set the roadmap.
 Suitability of items for the roadmap is determined by community need and the
 availability of resources to support development.
 
@@ -105,32 +144,22 @@ As stated above, anybody may submit a pull request against any of the
 repositories. The change approval section above covers how such pull requests
 may be approved. It should be noted, though, that major changes to the project
 stand a much better chance of being accepted if they are on the roadmap and/or
-if Get ODK Inc. and the TAB have agreed in advance they are a good fit for the
-project and that the chosen design and implementation stategy are suitable.
-
-## Tools
-
-ODK is a community that produces free and open-source software for collecting,
-managing, and using data in resource-constrained environments. The community may
-allow certain other projects adhering to that vision to join ODK in order to
-contribute to and benefit from its brand, community, and vitality. The
-[Tool Governance](TOOL-GOVERNANCE.md) document defines the specifics of how this
-can happen.
+if OFG and the OSSC have agreed in advance they are a good fit for the project
+and that the chosen design and implementation strategy are suitable.
 
 ## Amendments
 
-Revisions to any document in this repository must be approved by both Get ODK
-Inc. and the Technical Advisory Board. Even though these documents exist within
-an ODK repository, this requirement supersedes the change approval policy above.
+Revisions to any document in this repository must be approved by both OFG and
+the OSSC. Even though these documents exist within an integration toolkit
+repository, this requirement supersedes the change approval policy above.
 Committers should not effect changes to documents in this repository without the
-approval of Get ODK Inc. and the TAB. Exceptions may be made for small changes
-such as typographical errors.
+approval of OFG and the OSSC. Exceptions may be made for small changes such as
+typographical errors.
 
 ## Attribution
 
 This a derivative work of the
 [ODK Governance repository](https://github.com/getodk/governance/). Given
 similarities between ODK's structure (a single entity driving most of the work,
-but a responsibility to a large community of external stakeholders) and OpenFn's
-structure, OpenFn feels that a similar governance model is a good place to
-start.
+but a responsibility to a large community of external stakeholders) and OFG's
+structure, OFG feels that a similar governance model is a good place to start.

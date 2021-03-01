@@ -1,4 +1,4 @@
-# Technical Advisory Board
+# Steering Committee 
 
 The Technical Advisory Board (TAB) represents the ODK community of end users and
 implementers. It reviews and gives feedback on major roadmap decisions, new
