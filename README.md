@@ -38,6 +38,22 @@ accessed via the cloud.
 
 ### OFG's commitment to use and sustain the integration toolkit
 
+Our mission is to make health & humanitarian interventions more efficient &
+effective, and we see investment in the integration toolkit as strategic for
+three main reasons.
+
+1. Governments provide an important pathway to scale our work and many prefer
+   open-source and locally deployed solutions.
+2. We don’t intend to grow OFG into a large consulting shop and we think that a
+   stronger open-source offering will create more independent implementers of
+   our tools and decouple success in achieving our mission from our growth as a
+   single firm.
+3. As we’ve already started to see, other stakeholders may be able to build
+   newer, better, more context-appropriate technologies with the applications,
+   frameworks, and standards we’ve developed—a future where there are dozens of
+   competing, interchangeable integration solutions connecting hundreds of now
+   interoperable ICT4D technologies is one we want to be a part of.
+
 OFG strives to preserve the integration toolkit as a healthy and bona fide open
 source project and sustains its operations through business activities related
 to the toolkit and their other proprietary and/or service offerings.
@@ -79,7 +95,14 @@ build on top of this toolkit.
 
 The Open Source Steering Committee (OSSC) represents the OpenFn community of end
 users and implementers. It reviews and gives feedback on major roadmap
-decisions, new designs, specfications, features, and protocol changes.
+decisions, new designs, specifications, features, and protocol changes.
+
+Concretely, its members will (1) prepare for and participate in a 60 minute
+meeting once each month, (2) review our product roadmaps and implementation
+plans for the toolkit, and then (3) help us prioritize our investments in a very
+practical way—by thinking through their and their networks' project pipelines to
+identify upcoming implementation opportunities and real functional, legal, and
+technical requirements for those upcoming implementations.
 
 The OSSC's membership and decision making process are defined in the
 [OSSC's internal governance policy](OSSC.md).
