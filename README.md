@@ -74,11 +74,12 @@ applications and modules provided by OFG and the community which enable data
 integration, interoperability, and automation solutions via OpenFn-compliant
 jobs, triggers, and credentials. The key components of the toolkit are:
 
-1. OpenFn/core
-2. OpenFn/engine
-3. OpenFn/microservice
-4. OpenFn/devtools
-5. the OpenFn adaptors
+1. OpenFn/docs
+2. OpenFn/core
+3. OpenFn/engine
+4. OpenFn/microservice
+5. OpenFn/devtools
+6. the OpenFn adaptors
 
 Unless otherwise noted, all open-source repositories found at
 https://www.github.com/openfn are part of the integration toolkit.
