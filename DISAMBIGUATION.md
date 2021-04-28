@@ -1,7 +1,6 @@
 # Disambiguation and Open Access
 
-Initially Shared: January 18th, 2021
-Updated: April 28th, 2021
+Initially Shared: January 18th, 2021; Updated: April 28th, 2021
 
 Open Function Group (“OFG”) builds and maintains a large-suite of open-source
 and proprietary software for governments and NGOs around the world, provides
