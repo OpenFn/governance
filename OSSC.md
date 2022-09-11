@@ -15,12 +15,12 @@ The OSSC was conceived of in 2020 by OFG and will be first convened in 2021
 thanks to funding from Digital Square under a "Notice E0, Shelf Readiness"
 grant.
 
-OFG recognizes that until 2019, while "platform" usage has grown significantly,
-uptake of the open source integration toolkit _outside_ of the platform itself
-has been low. They believe that by formalizing the "transfer of ownership" of
-this toolkit to **representatives of the community** that benefits from its use
-will lead to greater strategic participation and, ultimately, more useful
-products.
+OFG recognizes that until 2019, while OpenFn "platform" usage has grown
+significantly, uptake of the open source integration toolkit _outside_ of the
+platform itself has been low. They believe that by formalizing the "transfer of
+ownership" of this DPG to **representatives of the community** that benefits
+from its use will lead to greater strategic participation and, ultimately, more
+useful products.
 
 ## Membership
 
@@ -59,15 +59,16 @@ with the over-represented organization(s).
 Changes to OSSC membership should be posted in the agenda, and may be suggested
 as any other agenda item.
 
-The current OSSC members are listed at: `TBD`.
+The current OSSC members are listed on the
+[OpenFn Community](https://community.openfn.org/t/first-ossc-meeting-of-2022/192).
 
 ## Meetings
 
-The OSSC will meet regularly (generally every month). The meeting will be run by
-a facilitator chosen by the OSSC and each meeting will be conducted and
+The OSSC will meet regularly (generally every 2 months). The meeting will be run
+by a facilitator chosen by the OSSC and each meeting will be conducted and
 published to a publicly accessible platform (e.g., YouTube). Meeting frequency,
 times, agenda, and notes will also be published to a publicly accessible
-platform (e.g., the forum, Google Docs).
+platform (the OpenFn Community, Google Docs).
 
 The OSSC will default to working in public, but sensitive topics (e.g.,
 pre-disclosure security problems, confidential pre-agreement discussions with

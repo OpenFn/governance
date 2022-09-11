@@ -1,6 +1,7 @@
 # Governance Overview
 
-The OpenFn open-source integration toolkit (the "integration toolkit") is
+The OpenFn open-source integration toolkit (the "integration toolkit") is a
+[Digital Public Good (DPG)](https://digitalpublicgoods.net/registry/openfn-integration-toolkit.html)
 governed by Open Function Group (OFG), LLC under the supervision of its Open
 Source Steering Committee (OSSC).
 
@@ -23,7 +24,7 @@ order to sustain their impact-focused integration work. Their main hosted
 offering, the OpenFn "platform", is _proprietary_ but makes extensive use of the
 open-source integration toolkit; in fact, the "platform" may be thought of as an
 enterprise/hosted layer running on-top of the basic, open-source building blocks
-provided by the integration toolkit.
+provided by the integration toolkit DPG.
 
 ### The OpenFn integration-platform-as-a-service
 
@@ -74,12 +75,13 @@ applications and modules provided by OFG and the community which enable data
 integration, interoperability, and automation solutions via OpenFn-compliant
 jobs, triggers, and credentials. The key components of the toolkit are:
 
-1. OpenFn/docs
-2. OpenFn/core
-3. OpenFn/engine
-4. OpenFn/microservice
-5. OpenFn/devtools
-6. the OpenFn adaptors
+1. [OpenFn/lightning](https://github.com/OpenFn/lightning)
+2. [OpenFn/docs](https://docs.openfn.org)
+3. OpenFn/core
+4. OpenFn/engine
+5. OpenFn/microservice
+6. OpenFn/devtools
+7. the OpenFn adaptors
 
 Unless otherwise noted, all open-source repositories found at
 https://www.github.com/openfn are part of the integration toolkit.
@@ -130,8 +132,8 @@ individuals deserving of Committer access, but OFG has final say.
 
 _Note: If you make a significant contribution and are not considered for
 commit/write access on the appropriate resource, file an issue, post on the
-forum, or contact an OSSC member directly and it will be brought up at the next
-OSSC meeting._
+Community ([community.openfn.org](https://community.openfn.org)), or contact an
+OSSC member directly and it will be brought up at the next OSSC meeting._
 
 If a Committer becomes inactive, having not participated substantially in the
 project for six months or more, their Committer status will be revoked. They may
