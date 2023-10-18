@@ -12,7 +12,7 @@ out how specific decisions are made.
 
 ## Open Function Group (OFG)
 
-[Open Function Group](https://www.openfn.org) is a New York-based LLC which has
+[Open Function Group](https://www.openfn.org) is a New York-based Public Benefit Corporation which has
 been building free and open source software (FOSS) for data integration projects
 in the health, humanitarian, and international development sectors since
 in 2014. Their software and services are now in use by governments, NGOs, and
